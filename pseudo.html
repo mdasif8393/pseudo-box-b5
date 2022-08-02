@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h1{
+            color: royalblue;
+        }
+        h1:hover{
+            color:aqua;
+        }
+        .middle-one:focus{
+            color: Purple;
+        }
+        li:nth-child(2n+1){
+            color: Purple;
+        }
+        h3::before{
+            content: "Hello "
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text" name="" id="">
+    <input class="middle-one" type="text" name="" id="">
+    <input type="text" name="" id="">
+    <h3>middle size header -1</h3>
+    <h3>middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <ul>
+        <li>lorem-1</li>
+        <li>lorem-2</li>
+        <li>lorem-3</li>
+        <li>lorem-4</li>
+        <li>lorem-5</li>
+        <li>lorem-6</li>
+        <li>lorem-1</li>
+        <li>lorem-2</li>
+        <li>lorem-3</li>
+        <li>lorem-4</li>
+        <li>lorem-5</li>
+        <li>lorem-6</li>
+    </ul>
+</body>
+</html>
